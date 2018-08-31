@@ -11,6 +11,6 @@ export class AppDataService {
   }
 
   getUsers() {
-    return this.http.get('/springjwt/users').map(res => res.json());
+    return this.http.get('/springjwt/usuarios').map(res => res.json());
   }
 }
